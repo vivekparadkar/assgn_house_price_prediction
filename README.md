@@ -28,16 +28,16 @@ Company wants to know:
 From the regression analysis, we can clearly see that both Ridge and lasso regression are able to predict on both train and test set with high score:
 
 ##### Ridge Regression
-Lambda - 6
-Train R2 Score - 0.8908122407337311
-Test R2 Score  - 0.8542564795841887
-RMSE           - 0.039341341670644
+- Lambda - 6
+- Train R2 Score - 0.8908122407337311
+- Test R2 Score  - 0.8542564795841887
+- RMSE           - 0.039341341670644
 
 ##### Lasso Regression
-Lambda - alpha=0.0001
-Train R2 Score - 0.898066998511091
-Test R2 Score  - 0.8508815744913294
-RMSE           - 0.0397942380553869
+- Lambda - alpha=0.0001
+- Train R2 Score - 0.898066998511091
+- Test R2 Score  - 0.8508815744913294
+- RMSE           - 0.0397942380553869
 
 R2 Score is almost same for both Ridge and Lasso. Alpha for ridge is 6 and for Lasso it is 0.0001. 
 
@@ -45,29 +45,29 @@ In this case, Lasso regression will be preferred since it does feature selection
 
 From Lasso regression result, we can see that following results have positive correlation to the target SalePrice:
 
-GrLivArea 	0.272
-RoofMatl_WdShngl 	0.186
-OverallQual 	0.119
-Neighborhood_NoRidge 	0.072
-GarageCars 	0.061
+- GrLivArea 	0.272
+- RoofMatl_WdShngl 	0.186
+- OverallQual 	0.119
+- Neighborhood_NoRidge 	0.072
+- GarageCars 	0.061
 
 Following variables have negative correlation:
-KitchenQual_TA 	-0.033
-BsmtQual_Gd 	-0.033
+- KitchenQual_TA 	-0.033
+- BsmtQual_Gd 	-0.033
 
 From Ridge regression result, we can see that following results have positive correlation to the target SalePrice:
 
-OverallQual 	0.078
-2ndFlrSF 	0.073
-GrLivArea 	0.066
-RoofMatl_WdShngl 	0.064
-Neighborhood_NoRidge 	0.064
+- OverallQual 	0.078
+- 2ndFlrSF 	0.073
+- GrLivArea 	0.066
+- RoofMatl_WdShngl 	0.064
+- Neighborhood_NoRidge 	0.064
 
 Following have negative correlation:
 
-BsmtQual_Gd 	-0.037
-KitchenQual_TA 	-0.035
-BsmtQual_TA 	-0.032
+- BsmtQual_Gd 	-0.037
+- KitchenQual_TA 	-0.035
+- BsmtQual_TA 	-0.032
 
 
 ## Technologies Used
